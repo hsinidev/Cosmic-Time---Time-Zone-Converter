@@ -1,0 +1,5 @@
+{
+  "name": "Cosmic Time - Time Zone Converter",
+  "description": "A modern, responsive time zone converter application that allows users to convert time from a source city to multiple target cities in real-time. Features a stunning animated cosmic background, 12/24 hour format toggle, and comprehensive information about global time zones.",
+  "requestFramePermissions": []
+}
