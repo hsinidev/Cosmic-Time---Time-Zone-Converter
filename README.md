@@ -1,20 +1,22 @@
 <div align="center">
-# 🚀 Cosmic Time Time Zone Converter
-### *Modern, High-Performance JavaScript Solution & Developer Suite*
 
-<p align="center">
-  [![Architect](https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white)](https://hsini.dev)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hsini.dev)
-  [![Language](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge)](https://github.com/hsinidev)
-  [![Framework](https://img.shields.io/badge/Framework-JavaScript-6366f1?style=for-the-badge)](https://github.com/hsinidev)
-  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Cosmic%20Time%20Time%20Zone%20Co&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%" style="max-width: 100%; border-radius: 12px; margin-bottom: 20px;" alt="Cosmic Time Time Zone Converter Header Banner" />
 
-![Cosmic Time](https://your-domain.com/social-preview.png)
+  <h1>🚀 Cosmic Time Time Zone Converter</h1>
+  <p><em>Modern, High-Performance JavaScript Solution & Developer Suite</em></p>
+
+  <p align="center">
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white" alt="Architect: Hsini Mohamed" /></a>
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio: hsini.dev" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge" alt="Language: TypeScript" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Framework-JavaScript-6366f1?style=for-the-badge" alt="Framework: JavaScript" /></a>
+    <a href="https://github.com/hsinidev/Cosmic-Time---Time-Zone-Converter"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT" /></a>
+  </p>
 
 </div>
 
 ---
+
 ## 🌟 Executive Overview
 
 **Cosmic Time Time Zone Converter** is a production-grade **TypeScript** platform engineered for high reliability, clean architectural separation, and frictionless developer workflow.
@@ -27,6 +29,7 @@
 - **Production Ready**: Built-in error resilience, validation, and structured logging.
 
 ---
+
 ## 🏗️ Architecture & Technology Stack
 
 - **Primary Language**: `TypeScript`
@@ -34,97 +37,6 @@
 - **Design Pattern**: Modular Clean Architecture / Domain-Driven Design
 - **License**: MIT Open Source Attribution
 
-## 📖 Deep-Dive Technical Documentation
-
-# Cosmic Time - Time Zone Converter
-
-![Cosmic Time](https://your-domain.com/social-preview.png) <!-- Placeholder for a screenshot of the app -->
-
-Cosmic Time is a modern, responsive, and visually stunning time zone converter application built with React, TypeScript, and Tailwind CSS. It provides a seamless and intuitive experience for anyone needing to coordinate across different global time zones, from professionals scheduling international meetings to travelers planning their next trip.
-
-The application features a beautiful animated cosmic background, making time conversion not just a utility, but an experience.
-
-## ✨ Key Features
-
-- **Multi-City Conversion**: Convert a specific date and time from a source city to multiple target cities simultaneously.
-- **Real-Time Data**: Utilizes the WorldTimeAPI for accurate, up-to-date time zone information, automatically accounting for Daylight Saving Time (DST).
-- **12/24 Hour Format**: Easily toggle the time display between 12-hour (AM/PM) and 24-hour formats.
-- **Stunning UI/UX**: A clean, professional, and friendly interface centered on a beautiful animated multi-colored galaxy background.
-- **Fully Responsive**: The layout is optimized for a seamless experience on all devices, from desktops to mobile phones.
-- **Privacy-Focused**: No user data is stored. Optional API keys are saved only in the browser for the current session.
-- **SEO Optimized**: Includes a comprehensive 3500+ word article on global time zones, complete with JSON-LD schema for powerful SEO performance.
-- **Informative Modals**: Quick access to an About page, User Guide, Contact info, and other policies.
-
-## 🛠️ Tech Stack
-
-- **Frontend**: [ReactJS](https://reactjs.org/) (with Functional Components and Hooks)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **API**: [WorldTimeAPI](https://worldtimeapi.org/) (for time zone data)
-
-## 🚀 Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v16 or later recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-
-### Installation
-
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/hsinidev/cosmic-time-converter.git
-    ```
-2.  **Navigate to the project directory:**
-    ```sh
-    cd cosmic-time-converter
-    ```
-3.  **Install NPM packages:**
-    ```sh
-    npm install
-    ```
-
-### Running the Application
-
--   **Start the development server:**
-    ```sh
-    npm run start
-    ```
-    This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) (or another port if specified) to view it in your browser.
-
-## 📂 Project Structure
-
-The project follows a standard React application structure, organizing files by function for clarity and maintainability.
-
-```
-/
-├── public/
-│   ├── index.html      # Main HTML template
-│   └── favicon.svg     # Application favicon
-├── src/
-│   ├── components/
-│   │   ├── ThemeLayout.tsx           # Main layout with background, header, footer
-│   │   ├── TimeZoneConverterTool.tsx # The core converter component
-│   │   └── SeoArticle.tsx            # SEO article component
-│   ├── App.tsx             # Main application component and state management
-│   ├── index.tsx           # Entry point of the React application
-│   ├── constants.ts        # App-wide constants (e.g., timezone list)
-│   └── types.ts            # TypeScript type definitions
-├── README.md             # This file
-├── robots.txt            # Instructions for web crawlers
-└── sitemap.xml           # Sitemap for search engines
-```
-
-
-**HSINI MOHAMED**
-
--   **GitHub**: [@hsinidev](https://github.com/hsinidev)
--   **Email**: [hsini.web@gmail.com](mailto:hsini.web@gmail.com)
--   **Website**: [doodax.com](https://doodax.com)
-
----
 ## 🚀 Quick Start & Installation
 
 ### 1. Clone the Repository
